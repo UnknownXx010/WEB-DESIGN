@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Kunjungan LP3I Banda Aceh</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        .form-container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .header {
+            display: flex;
+            align-items: center;
+            padding: 20px;
+            border-bottom: 1px solid #eee;
+        }
+        .logo {
+            width: 80px;
+            margin-right: 20px;
+        }
+        .header-text {
+            flex-grow: 1;
+        }
+        .title-section {
+            background-color: #1a2a3a;
+            color: white;
+            text-align: right;
+            padding: 8px 20px;
+            border-radius: 4px;
+            margin-left: 20px;
+        }
+        .form-content {
+            padding: 20px;
+        }
+        .form-row {
+            display: flex;
+            margin-bottom: 15px;
+            align-items: baseline;
+        }
+        .form-label {
+            width: 150px;
+            text-align: right;
+            padding-right: 20px;
+        }
+        .form-input {
+            flex-grow: 1;
+            border-bottom: 1px solid #ccc;
+            padding-bottom: 4px;
+        }
+        .questionnaire {
+            margin-top: 30px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            padding: 15px;
+        }
+        .questionnaire-title {
+            background-color: #1a2a3a;
+            color: white;
+            padding: 8px 15px;
+            border-radius: 4px;
+            display: inline-block;
+            margin-bottom: 15px;
+        }
+        .question {
+            margin-bottom: 15px;
+        }
+        .options {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-top: 5px;
+        }
+        .option {
+            display: flex;
+            align-items: center;
+            margin-right: 10px;
+        }
+        .contact-info {
+            padding: 10px 20px;
+            font-size: 0.9em;
+            border-top: 1px solid #eee;
+        }
+        .footer {
+            display: flex;
+            padding: 15px 20px;
+        }
+        .qr-code {
+            width: 100px;
+            height: 100px;
+            background-color: #f0f0f0;
+            margin-right: 20px;
+        }
+        .slogan {
+            text-transform: uppercase;
+            font-weight: bold;
+            font-size: 1.2em;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        .payment-info {
+            font-size: 0.8em;
+            color: #666;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="form-container">
+        <div class="header">
+            <div class="logo">
+                <svg viewBox="0 0 100 100" width="100%" height="100%">
+                    <rect x="10" y="10" width="80" height="80" fill="#1a2a3a" />
+                    <text x="50" y="50" text-anchor="middle" fill="white" font-size="20">LP3I</text>
+                </svg>
+            </div>
+            <div class="header-text">
+                <strong>BANDA ACEH</strong>
+                <div>
+                    <p>d. Sultan Hotel No.36-38<br>
+                    Peunayong, Banda Aceh</p>
+                    <p>
+                        <i class="icon">📱</i> (0651) 31308<br>
+                        <i class="icon">📷</i> lp3ibandaaceh<br>
+                        <i class="icon">📷</i> lp3ibandaaceh<br>
+                        <i class="icon">🎓</i> LP3I College Banda Aceh<br>
+                        <i class="icon">🎓</i> LP3I College Banda Aceh
+                    </p>
+                </div>
+            </div>
+            <div class="title-section">
+                <div>Tanggal __________________</div>
+                <strong>Biodata Siswa</strong>
+            </div>
+        </div>
+        
+        <div class="form-content">
+            <h3 style="text-align: center;">FORM KUNJUNGAN LP3I BANDA ACEH KE SEKOLAH ( LP3I GOES TO SCHOOL )</h3>
+            
+            <div class="form-row">
+                <div class="form-label">Nama Siswa</div>
+                <div class="form-input">:</div>
+            </div>
+            
+            <div class="form-row">
+                <div class="form-label">Tempat, Tgl Lahir</div>
+                <div class="form-input">:</div>
+            </div>
+            
+            <div class="form-row">
+                <div class="form-label">Asal Sekolah</div>
+                <div class="form-input">:</div>
+            </div>
+            
+            <div class="form-row">
+                <div class="form-label">Kelas</div>
+                <div class="form-input">:</div>
+            </div>
+            
+            <div class="form-row">
+                <div class="form-label">No HP / WA</div>
+                <div class="form-input">:</div>
+            </div>
+            
+            <div class="form-row">
+                <div class="form-label">Email</div>
+                <div class="form-input">:</div>
+            </div>
+            
+            <div class="form-row">
+                <div class="form-label">Nama Presenter</div>
+                <div class="form-input">:</div>
+            </div>
+            
+            <div class="form-row">
+                <div class="form-label">No HP Presenter</div>
+                <div class="form-input">:</div>
+            </div>
+            
+            <div class="questionnaire">
+                <div class="questionnaire-title">Kuesioner Singkat</div>
+                
+                <div style="margin-bottom: 10px;">
+                    <span>Ket</span>
+                    <label style="margin-left: 10px;">
+                        <input type="checkbox"> boleh memilih lebih dari satu
+                    </label>
+                    <label style="margin-left: 10px;">
+                        <input type="radio" name="selection_type"> pilih salah satu
+                    </label>
+                </div>
+                
+                <div class="question">
+                    <div>1. Media sosial apa yang kamu gunakan?</div>
+                    <div class="options">
+                        <label class="option"><input type="checkbox"> Instagram</label>
+                        <label class="option"><input type="checkbox"> Tiktok</label>
+                        <label class="option"><input type="checkbox"> Facebook</label>
+                        <label class="option"><input type="checkbox"> Twitter</label>
+                        <label class="option"><input type="checkbox"> Youtube</label>
+                        <label class="option"><input type="checkbox"> Lainnya</label>
+                    </div>
+                </div>
+                
+                <div class="question">
+                    <div>2. Dalam sehari, berapa lama kamu habiskan untuk bermedia sosial?</div>
+                    <div class="options">
+                        <label class="option"><input type="radio" name="time_spent"> <1 Jam</label>
+                        <label class="option"><input type="radio" name="time_spent"> 1-3 Jam</label>
+                        <label class="option"><input type="radio" name="time_spent"> 3-5 Jam</label>
+                        <label class="option"><input type="radio" name="time_spent"> >5 Jam</label>
+                    </div>
+                </div>
+                
+                <div class="question">
+                    <div>2. Media sosial apa yang paling sering kamu gunakan?</div>
+                    <div class="options">
+                        <label class="option"><input type="radio" name="most_used"> Instagram</label>
+                        <label class="option"><input type="radio" name="most_used"> Tiktok</label>
+                        <label class="option"><input type="radio" name="most_used"> Facebook</label>
+                        <label class="option"><input type="radio" name="most_used"> Twitter</label>
+                        <label class="option"><input type="radio" name="most_used"> Youtube</label>
+                        <label class="option"><input type="radio" name="most_used"> Lainnya</label>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer">
+            <div class="qr-code">
+                <svg viewBox="0 0 100 100" width="100%" height="100%">
+                    <rect x="5" y="5" width="90" height="90" fill="white" stroke="black" stroke-width="2" />
+                    <text x="50" y="50" text-anchor="middle" font-size="8">Pindai disini untuk informasi selengkapnya tentang LP3I Banda Aceh</text>
+                </svg>
+            </div>
+            
+            <div class="slogan">
+                <div>TEPAT</div>
+                <div>CEPAT</div>
+                <div>KERJA</div>
+            </div>
+            
+            <div class="payment-info">
+                <p>Dapatkan potongan biaya pendaftaran<br>
+                sebesar Rp. 100.000 dengan menyerahkan<br>
+                form ini kepada Customer<br>
+                Service - hanya berlaku 30 Juni</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
